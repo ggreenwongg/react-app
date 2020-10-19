@@ -1,0 +1,38 @@
+body{
+    background-image: url('./bg.jpg');
+    background-size: cover;
+}
+.boarder button{
+    margin: 10px;
+    padding: 10px 5px;
+   
+}
+.boarder{
+    font-weight:1.3rem;
+    font-size: large;
+    text-align: center;
+    background-color: aqua;
+    position: relative;
+    margin:0 auto;
+    padding: 0;
+    width: 80%;
+}
+.content h2{
+    color:Red;
+    font-style: italic;
+}
+.content img{
+    width : 30%;
+    height: 30%;
+}
+.content img:hover{
+    transform: scale(2);
+    opacity: 0.8;
+    transition: all ease 2000ms;
+}
+.footer{
+    margin: 0 auto;
+    width: 40%;
+    color:yellow;
+    background-color: brown;
+}
