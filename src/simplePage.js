@@ -1,4 +1,3 @@
-import { getContrastRatio } from '@material-ui/core';
 import React, { useState, useEffect } from 'react';
 
 function SimplePage() {
